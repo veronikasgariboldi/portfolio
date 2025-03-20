@@ -6,7 +6,7 @@
   }
   
   .name {
-    font-size: 24px;
+    font-size: 26px;
     font-weight: bold;
     text-decoration: none;
     color: #333;
@@ -14,7 +14,9 @@
   
   .header-right {
     display: flex;
-    gap: 20px;
+    align-items: center;
+    gap: 44px;
+    aspect-ratio: 157/11;
   }
   
   .header-right a {
