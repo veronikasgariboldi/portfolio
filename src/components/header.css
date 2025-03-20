@@ -1,3 +1,16 @@
+:root {
+  --black: #170101;
+  --white: #FFFBFB;
+  --yellow: #FFC20B;
+  --green:#25BC32;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+
+body, html {
+  font-family: 'Pixelify Sans', sans-serif;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -19,12 +32,14 @@
     aspect-ratio: 157/11;
   }
   
-  .header-right a {
+  .header .header-right a {
     text-decoration: none;
     font-weight: 500;
     color: black;
   }
   
   .header-right a:hover {
-    color: #75b61e;
+    color: var(--green);
   }
+
+

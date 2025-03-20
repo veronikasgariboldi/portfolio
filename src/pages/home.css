@@ -1,0 +1,53 @@
+:root {
+    --black: #170101;
+    --white: #FFFBFB;
+    --yellow: #FFC20B;
+    --green:#25BC32;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body, html {
+    font-family: 'Inter', sans-serif;
+}
+
+.MainTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+
+.headline {
+    max-width: 1000px;
+    text-align: left;
+}
+
+.headline-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.headline h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+    margin: 0;
+    font-weight: 900;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.green {
+    color: var(--green);
+}
+
+.cursive {
+    font-style: italic;
+}
+
+.YellowCursive {
+    color: var(--yellow);
+    font-style: italic;
+}

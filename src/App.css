@@ -1,11 +1,14 @@
+:root {
+  --black: #170101;
+  --white: #FFFBFB;
+  --yellow: #FFC20B;
+  --green:#25BC32;
+}
+
 .App {
   text-align: center;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
 
-body, html {
-  font-family: 'Pixelify Sans', sans-serif;
-}
 
 
