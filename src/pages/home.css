@@ -3,7 +3,8 @@
     --white: #FFFBFB;
     --yellow: #FFC20B;
     --green:#25BC32;
-}
+    --gray: #767676;
+  }
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
@@ -16,6 +17,8 @@ body, html {
     justify-content: flex-start;
     align-items: center;
     min-height: 80vh;
+    height: 700px;
+    font-family: 'Inter', sans-serif;
 }
 
 
@@ -69,6 +72,16 @@ body, html {
     margin-bottom: 0.5rem;
 }
 
+.third-row{
+    text-align: center;
+}
+
+.in-between-row{
+    text-align: center;
+    color: var(--gray);
+    font-weight: 500;
+}
+
 .typing-text {
     display: inline-block;
     white-space: nowrap;
@@ -80,6 +93,11 @@ body, html {
     animation-delay: 0s;
     animation-duration: 0.7s;
 }
+
+.in-between-row .typing-text{
+    animation-delay: 0.7s;
+}
+
 .second-row .typing-text {
     animation-delay: 0.7s;
     animation-duration: 1s;
@@ -129,3 +147,19 @@ body, html {
         transform: translateY(5px);
     }
 }
+
+.scroll {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    opacity: 0;
+    justify-content: center;
+    margin-top: 35px;
+    font-size: 10px;
+    animation: fadeIn 1s forwards;
+    animation-delay: 2.8s;
+}
+
+
+

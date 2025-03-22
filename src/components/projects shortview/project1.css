@@ -1,0 +1,87 @@
+:root {
+    --black: #170101;
+    --white: #FFFBFB;
+    --yellow: #FFC20B;
+    --green:#25BC32;
+    --gray: #767676;
+    --lightgray: #E1DCDC;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+
+body, html {
+  font-family: 'Inter', sans-serif;
+}
+
+.project-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    align-self: stretch;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.project-containers{
+    display: flex;
+    width: 741px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.project-img {
+    width: 356px;
+    flex-shrink: 0;
+    border-radius: 22px;
+    background: var(--lightgray);
+    aspect-ratio: 2/1.5;
+}
+
+.project-desc {
+    display: flex;
+    width: 365px;
+    padding-bottom: 94px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 5px;
+    flex-shrink: 0;
+}
+
+.project-title {
+    align-self: stretch;
+    margin: 0;
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: var(--yellow) 1px inset;
+}
+
+.project-date {
+    align-self: stretch;
+    margin: 0;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    border: var(--yellow) 1px inset;
+}
+
+.project-details {
+    align-self: stretch;
+    margin: 0;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: var(--yellow) 1px inset;
+}

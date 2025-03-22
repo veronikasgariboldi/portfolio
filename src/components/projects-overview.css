@@ -1,0 +1,22 @@
+:root {
+    --black: #170101;
+    --white: #FFFBFB;
+    --yellow: #FFC20B;
+    --green:#25BC32;
+    --gray: #767676;
+    --lightgray: #E1DCDC;
+}
+
+.overview-container{
+    width: 75%;
+    height: auto;
+    align-items: center;
+    margin: 0 auto;
+    border: red 1px inset;
+    margin-bottom: 1%;
+}
+
+.hi {
+    font-size: xx-large;
+    text-align: center;
+}
