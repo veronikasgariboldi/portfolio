@@ -5,9 +5,9 @@ function Home() {
         <div className="MainTitle">
             <div className="headline-container">
                 <div className="headline">
-                    <h1>Let<span className="green"> me</span></h1>
-                    <h1>help you develop <span className="cursive">your</span></h1>
-                    <h1 className="YellowCursive">dream website</h1>
+                    <h1 className="first-row"><span className="typing-text">Hi,</span></h1>
+                    <h1 className="second-row"><span className="typing-text">my name's <span className="Yellow">Veronika Sgariboldi</span></span></h1>
+                    <h1 className="third-row"><span className="typing-text">but the gang calls me <span className="green">Veru</span></span></h1>
                 </div>
             </div>
         </div>

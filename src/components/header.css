@@ -29,7 +29,7 @@ body, html {
     display: flex;
     align-items: center;
     gap: 44px;
-    aspect-ratio: 157/11;
+    aspect-ratio: 342.00/23.78;
   }
   
   .header .header-right a {
@@ -42,4 +42,7 @@ body, html {
     color: var(--green);
   }
 
+  .header, .name, .header-right a {
+    font-family: 'Pixelify Sans', sans-serif;
+  }
 

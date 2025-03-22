@@ -13,7 +13,7 @@ body, html {
 
 .MainTitle {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     min-height: 80vh;
 }
@@ -31,23 +31,65 @@ body, html {
 }
 
 .headline h1 {
-    font-size: 3.5rem;
+    font-size: 48px;
     line-height: 1.2;
     margin: 0;
-    font-weight: 900;
-    display: inline-block;
+    font-weight: 800;
     margin-right: 10px;
 }
 
 .green {
     color: var(--green);
+    font-size: 48px;
 }
 
 .cursive {
     font-style: italic;
 }
 
-.YellowCursive {
-    color: var(--yellow);
-    font-style: italic;
+.Yellow{
+    background: linear-gradient(3deg, #FFC20B 55.85%, #F58506 116.49%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.first-row {
+    margin-bottom: 0.5rem;
+    margin-left: 10%; /* Add a left margin to position it where you want */
+
+}
+
+.second-row {
+    margin-bottom: 0.5rem;
+}
+
+.typing-text {
+    display: inline-block;
+    white-space: nowrap;
+    opacity: 0;
+    animation: typing-appear 0.8s forwards;
+}
+
+.first-row .typing-text {
+    animation-delay: 0s;
+    animation-duration: 0.5s;
+}
+.second-row .typing-text {
+    animation-delay: 0.7s;
+    animation-duration: 0.7s;
+}
+.third-row .typing-text {
+    animation-delay: 1.6s;
+    animation-duration: 1s;
+}
+
+@keyframes typing-appear {
+    0% { opacity: 0; clip-path: inset(0 100% 0 0); }
+    100% { opacity: 1; clip-path: inset(0 0 0 0); }
 }

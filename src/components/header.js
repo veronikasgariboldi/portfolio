@@ -8,7 +8,6 @@ function Header() {
             <div className="header-right">
                 <Link to="/" className="active">start</Link>
                 <Link to="/about" className="active">about</Link>
-                <Link to="/pricing" className="active">pricing</Link>
                 <Link to="/contact" className="active">contact</Link>
             </div>
         </div>
