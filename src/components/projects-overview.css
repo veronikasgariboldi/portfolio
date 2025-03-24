@@ -17,6 +17,10 @@ body, html {
   box-sizing: border-box; 
 }
 
+a {
+    text-decoration: none !important; /* Ensures underline is completely removed */
+}
+
 .overview-container{
     font-family: 'Inter', sans-serif;
     display: flex;
@@ -34,3 +38,9 @@ body, html {
     min-height: 200px; /* Make sure there's enough space for the content */
 }
 
+.project-link {
+    display: block; /* Make the link behave like a block element */
+    text-decoration: none; /* Remove the default underline */
+    color: inherit; /* Ensure the color inherits from the parent element */
+    font-size: inherit;/* Inherit the text color */
+}
