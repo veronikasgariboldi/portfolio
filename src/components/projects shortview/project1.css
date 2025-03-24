@@ -12,76 +12,67 @@
 
 body, html {
   font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .project-container {
     display: flex;
-    align-items: center;
-    gap: 20px;
-    align-self: stretch;
-    font-family: 'Inter', sans-serif;
+    justify-content: center;
+    width: 100%;
     
 }
 
 .project-containers{
     display: flex;
-    width: 741px;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
+    max-width: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
 }
 
 .project-img {
-    width: 356px;
-    flex-shrink: 0;
+    width: 50%;
+    max-width: 420px;
+    aspect-ratio: 16/9;
     border-radius: 22px;
     background: var(--lightgray);
-    aspect-ratio: 2/1.5;
+    object-fit: cover;
 }
 
 .project-desc {
     display: flex;
-    width: 365px;
-    padding-bottom: 94px;
+    width: 50%;
+    max-width: 420px;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
-    gap: 5px;
-    flex-shrink: 0;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
 }
 
 .project-title {
     align-self: stretch;
     margin: 0;
-    color: #000;
-    font-family: Inter;
-    font-size: 24px;
-    font-style: normal;
+    color: var(--black);
+    font-size: 28px;
     font-weight: 600;
-    line-height: normal;
-    border: var(--yellow) 1px inset;
 }
 
 .project-date {
     align-self: stretch;
     margin: 0;
-    color: #000;
-    font-family: Inter;
+    color: var(--gray);
     font-size: 16px;
-    font-style: normal;
     font-weight: 300;
-    line-height: normal;
-    border: var(--yellow) 1px inset;
+    margin-bottom: 4px;
 }
 
 .project-details {
     align-self: stretch;
     margin: 0;
-    color: #000;
-    font-family: Inter;
+    color: var(--black);
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
-    border: var(--yellow) 1px inset;
+    line-height: 1.5;
 }

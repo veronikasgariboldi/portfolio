@@ -7,16 +7,30 @@
     --lightgray: #E1DCDC;
 }
 
-.overview-container{
-    width: 75%;
-    height: auto;
-    align-items: center;
-    margin: 0 auto;
-    border: red 1px inset;
-    margin-bottom: 1%;
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+
+body, html {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
 }
 
-.hi {
-    font-size: xx-large;
-    text-align: center;
+.overview-container{
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 0; /* Remove any extra padding */
+    margin: 0;
+    box-sizing: border-box; 
+    
 }
+
+.project-container {
+    padding: 0; /* Remove any extra padding */
+    margin: 0;
+    padding: 20px; /* Ensure enough padding */
+    min-height: 200px; /* Make sure there's enough space for the content */
+}
+
