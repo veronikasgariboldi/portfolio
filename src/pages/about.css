@@ -1,9 +1,52 @@
+:root {
+    --black: #170101;
+    --white: #FFFBFB;
+    --yellow: #FFC20B;
+    --green:#25BC32;
+    --gray: #767676;
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+
+
+body, html {
+    font-family: 'Inter', sans-serif;
+}
+
+
+
 .about-container {
     display: flex;
+    flex-direction: column; /* Stack elements vertically */
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Full viewport height */
-    width: 100vw; /* Full viewport width */
-    overflow: hidden; /* Prevents overflow issues */
-  }
-  
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    font-family: Pixelify Sans;
+}
+
+.scrolling {
+    font-family: Pixelify Sans;
+}
+
+.intro {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2rem; /* Add space between intro and scroll text */
+}
+
+.title {
+    width: 100%;
+}
+
+.asking-the-question {
+    color: var(--black); /* Use your defined color variable */
+    font-family: 'Inter', sans-serif;
+    font-size: 64px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0 0 1rem 0; /* Add some bottom margin */
+}
