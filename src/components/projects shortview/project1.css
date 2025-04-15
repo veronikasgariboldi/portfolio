@@ -38,6 +38,9 @@ body, html {
     aspect-ratio: 16/9;
     border-radius: 22px;
     background: var(--lightgray);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
     object-fit: cover;
 }
 

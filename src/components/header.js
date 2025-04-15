@@ -7,6 +7,7 @@ function Header() {
             <Link to="/" className="name">Veru</Link>
             <div className="header-right">
                 <Link to="/" className="active">start</Link>
+                <Link to="/projects" className="active">projects</Link>
                 <Link to="/about" className="active">about</Link>
                 <Link to="/contact" className="active">contact</Link>
             </div>
