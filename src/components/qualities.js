@@ -6,7 +6,7 @@ function Qualities() {
         <h1 className='about-me-question'>What can I do?</h1>
         <div className='about-me-qualities'>
             <div className='about-me-softwares'>
-                <h1 className='Qualitie-titles'>Softwares</h1>
+                <h1 className='Qualitie-titles'>Software</h1>
                 <div className="line-break"></div>
                 <div className="line">
                     <div className='Software' id = "Figma">

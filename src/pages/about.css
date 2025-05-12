@@ -264,3 +264,36 @@ body, html {
     font-weight: 400;
     line-height: normal;
 }
+
+@media (max-width: 768px) {
+    .me-arrow{
+        display: none;
+    }
+    .pfp{
+        display: none;
+    }
+    .so{
+        display: none;
+    }
+    .asking-the-question {
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .intro-container {
+        flex-direction: column; /* Stack elements vertically */
+        width: 90%;
+        height: auto; /* Adjust height as needed */
+    }
+
+    .profile {
+        width: 80%;
+        height: auto; /* Adjust height as needed */
+    }
+
+    .about-me-qualities {
+        flex-direction: column; /* Stack elements vertically */
+        gap: 10%; /* Adjust the gap as needed */
+    }
+}

@@ -10,6 +10,7 @@ function Footer() {
         <div className="footer">
             <hr className="footer-divider" />
             <h1 className='title'>The many ways to get to me: </h1>
+            <div className='footer-container'>
             <div className='socials-container'>
                 <div className='social-container'>
                     <div className='instagram-img'></div>
@@ -41,6 +42,7 @@ function Footer() {
                     <div className='social-user' id='github' onClick={() => handleClick('https://github.com/veronikasgariboldi')}>veronikasgariboldi</div>
                     </div>
                 </div>
+            </div>
             </div>
         </div>
     )

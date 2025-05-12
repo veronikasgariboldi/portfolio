@@ -162,5 +162,15 @@ body, html {
     animation-delay: 2.8s;
 }
 
-
-
+@media (max-width: 768px) {
+    .headline h1 {
+        font-size: 36px;
+    }
+    .headline p {
+        font-size: 16px;
+    }
+    .MainTitle {
+        justify-content: center;
+        align-items: center;
+    }
+}
