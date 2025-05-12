@@ -1,4 +1,5 @@
 import './about.css'; 
+import Qualities from '../components/qualities';
 
 function About2() {
   return (
@@ -24,9 +25,13 @@ function About2() {
             </div>
         </div>
         <div className='about-me'>
-            
+            <div className='about-me-text'>
+                <p className='about-me-text-1'>I am an 18 year old, who has been coding since the ripe age of 16! Aside from design, it is my true passion that I want to pursue as my future career. I have made a couple websites and applications.. Here you can take a look on what I can do!</p>
+            </div>
+            <Qualities />
         </div>
     </div>
+
 
   );
 }

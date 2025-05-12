@@ -35,6 +35,12 @@ function Footer() {
                     <a href="mailto:veronika.sgariboldi@gmail.com" target="_blank" rel="noopener noreferrer" className="unstyled-link">veronika.sgariboldi@gmail.com</a>
                     </div>
                 </div>
+                <div className='social-container'>
+                    <div className='github-img'></div>
+                    <div className='social-user' id='gmail'>
+                    <div className='social-user' id='github' onClick={() => handleClick('https://github.com/veronikasgariboldi')}>veronikasgariboldi</div>
+                    </div>
+                </div>
             </div>
         </div>
     )

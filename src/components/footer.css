@@ -100,6 +100,13 @@ body, html {
     background: url(../images/Gmail.png) transparent 50% / cover no-repeat;
 }
 
+.github-img {
+    width: 22px;
+    height: 22px;
+    aspect-ratio: 1/1;
+    background: url(../images/github-icon.png) transparent 50% / cover no-repeat;
+}
+
 .social-user {
     color: var(--black);
     font-family: "Pixelify Sans";
@@ -128,7 +135,7 @@ body, html {
     border: none;
     height: 1px;
     border-color: var(--lightgray);
-    background-color: var(--lightgray); /* or #ccc for a lighter grey */
+    background-color: var(--lightgray); 
     
 }
 

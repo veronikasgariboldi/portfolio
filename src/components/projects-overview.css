@@ -18,7 +18,7 @@ body, html {
 }
 
 a {
-    text-decoration: none !important; /* Ensures underline is completely removed */
+    text-decoration: none !important;
 }
 
 .overview-container{
@@ -43,4 +43,21 @@ a {
     text-decoration: none; /* Remove the default underline */
     color: inherit; /* Ensure the color inherits from the parent element */
     font-size: inherit;/* Inherit the text color */
+}
+
+.line-breakk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 1px;
+    background-color: var(--lightgray);
+    margin: 0 auto;
+}
+
+.pixel{
+    font-family: 'Pixelify Sans', sans-serif;
+    color: var(--black);
+    text-align: center;
+    margin: 0;
 }
